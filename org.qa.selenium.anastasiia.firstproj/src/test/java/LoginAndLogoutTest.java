@@ -16,7 +16,6 @@ public class LoginAndLogoutTest {
         driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
         driver.manage().window().maximize();
 
-
     }
 
     @AfterMethod
@@ -38,6 +37,6 @@ public class LoginAndLogoutTest {
         passwElement.sendKeys("admin123");
         submitButton.click();
 
-        //check result
+        //check result-
     }
 }
