@@ -37,6 +37,6 @@ public class LoginAndLogoutTest {
         passwElement.sendKeys("admin123");
         submitButton.click();
 
-        //check result--
+        //check result---
     }
 }
